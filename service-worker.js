@@ -2,7 +2,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox
 workbox.setConfig({
   debug: !0
 });
-workbox.precaching.precacheAndRoute([{"revision":null,"url":"assets/index-bc05fda4.css"},{"revision":null,"url":"assets/index-dc7059e8.js"},{"revision":null,"url":"assets/webfontloader-523643f5.js"},{"revision":"d2934228fe0be77875d50428bb482362","url":"index.html"},{"revision":"8fb4017361a104442a7085923b945c2b","url":"registerSW.js"},{"revision":"605378503df6be2aa07587a1ab6fb6e9","url":"manifest.webmanifest"}]);
+workbox.precaching.precacheAndRoute([{"revision":null,"url":"assets/index-119a80bb.css"},{"revision":null,"url":"assets/index-41e469c3.js"},{"revision":null,"url":"assets/webfontloader-523643f5.js"},{"revision":"d581b6acd419e318dc11097b4960416e","url":"index.html"},{"revision":"ab3cedaeaab6f9325c98e7abe76fb8c6","url":"registerSW.js"},{"revision":"46431694a7b1e416e71a6265e36ec1f5","url":"manifest.webmanifest"}]);
 workbox.routing.registerRoute(
   new RegExp("https://firebasestorage.googleapis.com/v0/b/pwa-camera.appspot.com/.*"),
   new workbox.strategies.StaleWhileRevalidate({
